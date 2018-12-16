@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 /*
-Package bchlog defines an interface and default implementation for subsystem
+Package bsvlog defines an interface and default implementation for subsystem
 logging.
 
 Log level verbosity may be modified at runtime for each individual subsystem
@@ -24,4 +24,4 @@ are recognized:
   shortfile: Include the filename and line number in all log messages.
   Overrides longfile.
 */
-package bchlog
+package bsvlog
